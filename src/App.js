@@ -13,6 +13,7 @@ import ClickablePicture from './components/ClickablePicture/ClickablePicture';
 import Dice from './components/Dice/Dice';
 import Carousel from './components/Carousel/Carousel';
 import NumbersTable from './components/NumbersTable/NumbersTable';
+import Facebook from './components/Facebook/Facebook';
 
 function App() {
   return (
@@ -139,6 +140,9 @@ function App() {
 
         <h4>Iterarion 12:</h4>
         <NumbersTable limit={12} />
+
+        <h4>Iterarion 13 and 14:</h4>
+        <Facebook />
 
     </div>
   );
